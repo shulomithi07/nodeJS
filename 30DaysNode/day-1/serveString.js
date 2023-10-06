@@ -4,7 +4,7 @@ const PORT = 3000
 
 const server = http.createServer((req, res)=>{
     console.log("Create Server")
-    // res.writeHead("Content-Type", "text/plain")
+    res.writeHead(200, {"Content-Type": "text/plain"})
     res.write("Coming from the serveString.js file")
     res.end("Success")
 })
