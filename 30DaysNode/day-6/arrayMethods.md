@@ -22,9 +22,14 @@
 
 ## SORT
     It is used to sort the elements in terms of their occurences.
+    This will not sort numbers
 
 ## SPLICE
     It can be used in 2 ways you can add the elements by specifing the index and the data, and also you can just give the index to delete the data from the array
+    arr.splice(2,7,'a','b','c','d','e','f','g')
+    At position 2 ad 7 elements
+    arr.splice(2,5)
+    At position 2 delete 5 elements
 
 ## CONCAT
     IT is used to concatenate 2 arrays it will join them and result in the array which is a combination of both the arrays
@@ -57,8 +62,3 @@
 ## reduce()
     reduce() Method in arrays
     reduce method is used to reduce the array to a single value. This method executes the provided function for each value of the array and stores the result in accumulator. Note : It does not execute on array with no values. Snippet is given below :
-    			
-							
-
-reduce() Method in arrays
-reduce method is used to reduce the array to a single value. This method executes the provided function for each value of the array and stores the result in accumulator. Note : It does not execute on array with no values. Snippet is given below :
